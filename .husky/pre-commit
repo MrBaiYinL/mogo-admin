@@ -1,0 +1,11 @@
+###
+ # @LastEditors: luoxiaolei
+ # @LastEditTime: 2024-01-04 10:28:46
+ # @Description:  
+### 
+#!/usr/bin/env sh
+# . "$(dirname -- "$0")/_/husky.sh"
+
+# npm test
+# npm eslint --ext .js,.vue src
+npx lint-staged
