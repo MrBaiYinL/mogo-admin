@@ -1,6 +1,4 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
-# npm test
-# npx eslint --fix src/**/*.{ts,js,vue}
-npx --no-install lint-staged
+npx lint-staged
