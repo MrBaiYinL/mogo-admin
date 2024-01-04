@@ -12,7 +12,8 @@ module.exports = {
 
   // 解析器
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false
   },
 
   // 需要修改的启用规则及其各自级别
